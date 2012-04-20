@@ -1,0 +1,2 @@
+recursive-include toutpt *
+global-exclude *pyc

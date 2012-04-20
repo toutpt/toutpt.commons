@@ -1,0 +1,4 @@
+<layers>
+    <layer name="toutpt.commons" remove="True"
+           interface="toutpt.commons.browser.interfaces.IThemeSpecific" />
+</layers>
