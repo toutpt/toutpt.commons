@@ -3,6 +3,12 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="toutpt.commons">
 
+  <interface
+      interface=".interfaces.IThemeSpecific"
+      type="zope.publisher.interfaces.browser.IBrowserSkinType"
+      name="toutpt.commons"
+      />
+
   <browser:page
      name="manage-portlets"
      for="plone.portlets.interfaces.ILocalPortletAssignable"
