@@ -1,0 +1,15 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="toutpt.commons">
+
+  <browser:page
+     name="manage-portlets"
+     for="plone.portlets.interfaces.ILocalPortletAssignable"
+     class="plone.app.portlets.browser.manage.ManageContextualPortlets"
+     template="manageportlets.pt"
+     permission="plone.app.portlets.ManagePortlets"
+     layer=".interfaces.IThemeSpecific"
+    />
+
+</configure>

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<object name="portal_properties" meta_type="Plone Properties Tool">
+ <object name="site_properties" meta_type="Plone Property Sheet">
+  <property name="default_editor" type="string">TinyMCE</property>
+ </object>
+  <object name="ckeditor_properties" meta_type="Plone Property Sheet">
+  <property name="title">CKEditor properties</property>
+  <!-- base properties -->
+  <property name="forcePasteAsPlainText" type="boolean">True</property>
+  <property name="toolbar" type="string">Custom</property>
+  <property name="toolbar_Custom" type="text">
+[
+    ['Save','Format','Styles'],
+    ['Bold','Italic','Underline','Strike','Blockquote','-','Subscript','Superscript','-','RemoveFormat'],
+    ['NumberedList','BulletedList','-','Outdent','Indent',],
+    ['JustifyLeft','JustifyCenter','JustifyRight','JustifyBlock'],
+    ['HorizontalRule','SpecialChar'],
+    '/',
+    ['Cut','Copy','PasteText'],
+    ['Undo','Redo','-',],
+    ['Link','Unlink','Anchor','Image','Table'],
+    ['Maximize', 'ShowBlocks','Preview','Templates']
+    ['Source'],
+]
+  </property>
+  <property name="menuStyles" type="text">
+[ 
+  /* Block Styles */
+  { name : 'Discreet bloc'    , element : 'p', attributes : { 'class' : 'pullquote' } },
+  { name : 'Pull-quote'       , element : 'blockquote', attributes : { 'class' : 'discreet' } },
+  { name : 'Call-out'         , element : 'p', attributes : { 'class' : 'callout' } },
+  { name : 'Literal'          , element : 'pre' },
+  /* Inline styles */
+  { name : 'Discreet text'    , element : 'span', attributes : { 'class' : 'discreet' } },
+  { name : 'Highlight'        , element : 'span', attributes : { 'class' : 'visualHighlight' } },
+  { name : 'Typewriter'       , element : 'tt' },
+  { name : 'Computer Code'    , element : 'code' },
+  { name : 'Keyboard Phrase'  , element : 'kbd' },
+  { name : 'Sample Text'      , element : 'samp' },
+  { name : 'Variable'         , element : 'var' },
+  { name : 'Deleted Text'     , element : 'del' },
+  { name : 'Inserted Text'    , element : 'ins' },
+  { name : 'Cited Work'       , element : 'cite' },
+  { name : 'Inline Quotation' , element : 'q' },
+  /* Objects styles */ 
+  { name : 'Image on right'    , element : 'img', attributes : { 'class' : 'image-right' } },
+  { name : 'Image on left'     , element : 'img', attributes : { 'class' : 'image-left' } },
+  { name : 'Image centered'    , element : 'img', attributes : { 'class' : 'image-inline' } },
+  { name : 'Circle List'       , element : 'ul', attributes : { 'class' : 'listTypeCircle' } },
+  { name : 'Square List'       , element : 'ul', attributes : { 'class' : 'listTypeSquare' } },
+  { name : 'Numbers List'      , element : 'ol', attributes : { 'class' : 'listTypeDecimal' } }
+]
+  </property> 
+ </object>
+</object>

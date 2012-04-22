@@ -17,6 +17,7 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
   <include package=".upgrades" />
-
+  <include package=".browser" />
+  <subscriber handler=".language_negotiation.Negotiator"/>
 
 </configure>
