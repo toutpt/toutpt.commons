@@ -19,5 +19,6 @@
   <include package=".upgrades" />
   <include package=".browser" />
   <subscriber handler=".language_negotiation.Negotiator"/>
+  <include package="collective.ckeditor"/>
 
 </configure>
